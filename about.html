@@ -4,18 +4,24 @@
     <head>
         <meta charset="utf-8" />
         <title>Personal Website</title>
+        <link rel="stylesheet" href="../css_styles/style.css">
     </head>
 
     <body>
-        <div style="text-align:center">
+        <div>
             <h1>Elvin's Personal Website</h1>
         </div>
 
-        <a href="index.html">Home</a>
-        <a href="about.html">More about me</a>
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">More about me</a></li>
+        <li><form>
+            <label for="searchbox"></label>
+            <input type="search" name="search" placeholder="Search..."></form>
+        </li>
+    </ul>
 
     <main>
-        
         <article>
             <h3>Interests and Hobbies</h3>
             <p>These are some of my hobbies and interests</p>
@@ -25,7 +31,8 @@
 
         </section>
         <h3>Sports</h3>
-            <p>I like to play sports. The sports I mainly play are <strong>basketball</strong> and <strong>volleyball</strong></p>
+        <div class="parallax"></div>
+            <p class="sports">I like to play sports. The sports I mainly play are <strong>basketball</strong> and <strong>volleyball</strong></p>
             <img src="basketball.jpg" alt="Basketball" />
             <img src="volleyballjpg.jpg" alt="Volleyball" style="position: absolute; margin-left: 2%;"
             height="182"/>
@@ -51,25 +58,21 @@
             <br /><br />
 
             <form>
-                <div>
-                    <label>Guess the first song!</label><br />
-                    <input type="text" />
-                </div>
-                <div>
-                    <label>Guess the second song!</label><br />
-                    <input type="text" />
-                </div>
+                <label for="firstsong">Guess the first song!</label><br />
+                <input type="text" id="firstsong" >
+                <label for="secondsong">Guess the second song!</label><br />
+                <input type="text" id="secondsong" >
                 <br />
-                <div>
                     <input type="submit" value="Submit" />
-                </div>
             </form>
+
             <br />
+
         </section>
 
         <hr />
 
-        <section> 
+        <section class="workingOut"> 
             <h3>Working out</h3>
             <p>I love to work out and go to the gym. My goal for the gym this year is to go more often
                 My favorite thing to do is to work on chest and back. I don't really like leg day.
