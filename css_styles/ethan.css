@@ -1,0 +1,13 @@
+.parallax {
+    background-image:url("dog.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.temp {
+    height: 1000px;
+    width: 100px;
+    background: red;
+}

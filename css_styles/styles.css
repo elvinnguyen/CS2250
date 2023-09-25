@@ -1,0 +1,106 @@
+body {
+    color: green;
+    /* background: url("dog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    text-align: center;
+}
+
+p, h3, li {
+    color: red;
+    font-size: 60px; 
+}
+
+body div.content {
+    border: 2px solid hotpink;
+    margin: 50px;
+}
+
+.mybox {
+    width: 300px;
+    height: 300px;
+    background: red;
+    transform: translate(100px, 200px);
+}
+
+.moveBox {
+    width: 300px;
+    height: 300px;
+    background: black;
+    /* transition: width 5s, background 5s, border-radius 5s; */
+}
+
+.moveBox:hover {
+    width: 100%;
+    border-radius: 50%;
+    background: yellow;
+}
+
+.animateBox {
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    from {background: red;
+    }
+    to {
+        background: yellow;
+    }
+}
+
+@keyframes example2 {
+    0% {width: 300px;
+    }
+    25% {
+        width: 600px;
+    }
+    50% {
+        width: 900;
+    }
+    75% {
+        width: 1200;
+    }
+    100% {width: 1500;
+    }
+}
+
+table td:nth-child(odd), table th:nth-child(odd) {
+    background-color: red;
+}
+table td:nth-child(even), table th:nth-child(even) {
+    background-color: blue;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.nav li {
+    float: left;
+    border-right: 2px solid white;
+}
+
+ul.nav li a {
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul.nav li:last-child {
+    border-right: none;
+}
+
+ul.nav li a:hover {
+    background-color: green;
+}
