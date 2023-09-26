@@ -86,7 +86,7 @@ input[type=search]:focus {
 }
 
 .parallax2 {
-    background-image: url("../HW/music.jpg");
+    background-image: url("../music.jpg");
     opacity: 0.5;
     background-size: cover;
     background-attachment: fixed;
@@ -96,7 +96,7 @@ input[type=search]:focus {
 }
 
 .parallax3 {
-    background-image: url("../HW/gym.jpg");
+    background-image: url("../gym.jpg");
     opacity: 0.5;
     background-size: cover;
     background-attachment: fixed;
@@ -106,7 +106,7 @@ input[type=search]:focus {
 }
 
 .parallax4 {
-    background-image: url("../HW/videogamesjpg.jpg");
+    background-image: url("../videogamesjpg.jpg");
     opacity: 0.5;
     background-size: cover;
     background-attachment: fixed;
