@@ -6,10 +6,12 @@ body {
 h1 {
     font-size: 35px;
     text-align: center;
+    
 }
 
 h3 {
     text-shadow: 2px 2px 6px black;
+    
 }
 
 ul.nav {
@@ -45,10 +47,23 @@ body div.head {
     text-align: center;
 }
 
-ul {
+ul.intro {
     border: 2px solid #2F3C7E;
     border-radius: 5px;
 }
+
+ul.books {
+    outline-style: dashed;
+    outline-color: plum;
+}
+
+ul.shows {
+    outline-style: groove;
+    outline-color: burlywood;
+    outline-width: 5px;
+    outline-offset: 1px;
+}
+
 
 input[type=text] {
     border-radius: 4px;
@@ -61,7 +76,10 @@ input[type=text]:focus {
 
 input[type=search] {
     width: 130px;
-    margin-top: 10px;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
     box-sizing: border-box;
     border: 2px solid gray;
     border-radius: 4px;
@@ -123,6 +141,25 @@ tr:hover {
     background-color: lightgray;
 }
 
-img {
-    transform: rotate(360deg);
+#Basketball:hover {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+#Volleyball:hover {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
