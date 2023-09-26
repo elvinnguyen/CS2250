@@ -122,3 +122,7 @@ th {
 tr:hover {
     background-color: lightgray;
 }
+
+img {
+    transform: rotate(360deg);
+}
