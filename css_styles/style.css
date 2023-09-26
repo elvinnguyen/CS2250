@@ -76,10 +76,49 @@ input[type=search]:focus {
 
 
 .parallax {
-    background-image: url("../HW/basketball.jpg");
+    background-image: url("../sports.jpg");
+    opacity: 0.5;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    min-height: 500px; 
-    /* background-position: center; */
+    min-height: 450px; 
+    background-position: center;
+}
+
+.parallax2 {
+    background-image: url("../HW/music.jpg");
+    opacity: 0.5;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 450px; 
+    background-position: center;
+}
+
+.parallax3 {
+    background-image: url("../HW/gym.jpg");
+    opacity: 0.5;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 450px; 
+    background-position: center;
+}
+
+.parallax4 {
+    background-image: url("../HW/videogamesjpg.jpg");
+    opacity: 0.5;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 450px; 
+    background-position: center;
+}
+
+th {
+    background-color: skyblue;
+}
+
+tr:hover {
+    background-color: lightgray;
 }
