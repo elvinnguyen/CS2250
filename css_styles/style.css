@@ -163,12 +163,3 @@ tr:hover {
         transform: rotate(360deg);
     }
 }
-
-@media screen and (min-width: 390px) and (max-width:844) {
-.nav {
-    font-size: 100px;
-}
-.introduction {
-    font-size: 10px;
-}
-}
