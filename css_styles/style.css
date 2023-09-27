@@ -164,12 +164,11 @@ tr:hover {
     }
 }
 
-.column {
-    column-count: 3;
-    column-gap: 20px;
-    column-rule-style: ridge;
-    column-rule-width: 3px;
-    column-rule-color: darksalmon;
-    column-span: none;
-    column-width: 100px;
+@media screen and (min-width: 390px) and (max-width:844) {
+.nav {
+    font-size: 100px;
+}
+.introduction {
+    font-size: 10px;
+}
 }
