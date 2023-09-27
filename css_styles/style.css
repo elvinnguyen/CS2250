@@ -163,3 +163,13 @@ tr:hover {
         transform: rotate(360deg);
     }
 }
+
+.column {
+    column-count: 3;
+    column-gap: 20px;
+    column-rule-style: ridge;
+    column-rule-width: 3px;
+    column-rule-color: darksalmon;
+    column-span: none;
+    column-width: 100px;
+}
